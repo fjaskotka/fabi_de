@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Navbar from "@/src/components/Navbar";
 import Hero from "@/src/components/Hero";
@@ -7,12 +9,9 @@ import Contact from "@/src/components/Contact";
 import FlyFabi from "@/src/components/FlyFabi";
 import Footer from "@/src/components/Footer";
 
-
 export default function Home() {
-
-
   return (
-    <div>
+    <main>
       <Navbar />
       <Hero />
       <Career/>
@@ -20,6 +19,6 @@ export default function Home() {
       <Contact/>
       <FlyFabi/>
       <Footer/>
-    </div>
+    </main>
   );
 }

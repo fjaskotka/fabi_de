@@ -4,7 +4,7 @@ import Button from '../components/Button' // If Button is a JS file, change it t
 
 const FlyFabi: React.FC = () => {
     return (
-        <div id='flyfabi' className='w-full bg-gray-100 py-16 px-10'>
+        <div id='flyfabi' className='w-full bg-gray-100 py-16 px-10 text-default'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8'>
                 <img src={plane.src} alt='plane' className='w-[500px] mx-auto my-4 rounded-lg shadow-xl' />
                 <div className='flex flex-col max-w-[500px] '>

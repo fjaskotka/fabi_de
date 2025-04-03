@@ -4,7 +4,7 @@ import apple from '../assets/apple.webp';
 
 const Career: React.FC = () => {
   return (
-    <div id="career" className="w-full bg-white">
+    <div id="career" className="w-full bg-white text-default">
       <div className="max-w-[1240px] mx-auto p-3 md:p-6">
         <div className="w-full bg-white shadow-2xl grid md:grid-cols-2 rounded-lg">
           {/* Image Section */}

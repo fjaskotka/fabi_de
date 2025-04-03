@@ -5,7 +5,7 @@ import dhbw from '@/src/assets/dhbw.webp';  // Adjust path as needed
 
 const Academic: React.FC = () => {
   return (
-    <div id="academic" className="w-full py-[4rem] px-3 bg-white">
+    <div id="academic" className="w-full py-[4rem] px-3 bg-white text-default">
       <h1 className="text-primary lg:text-4xl text-3xl font-light py-2 mx-auto text-center m-4 my-auto mb-14">
         Academic Achievements
       </h1>
