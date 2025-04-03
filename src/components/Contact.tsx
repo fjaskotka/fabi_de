@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
         {/* Text Section */}
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold md:py-4 py-2">
-            It's a great time to get in touch!
+            It&apos;s a great time to get in touch!
           </h1>
           <p>Find me on LinkedIn or follow me on Instagram</p>
         </div>

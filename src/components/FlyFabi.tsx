@@ -1,12 +1,19 @@
 import React from 'react'
+import Image from 'next/image'
 import plane from '../assets/flyfabi.webp'
-import Button from '../components/Button' // If Button is a JS file, change it to Button.tsx if possible
+// import Button from '../components/Button' // If Button is a JS file, change it to Button.tsx if possible
 
 const FlyFabi: React.FC = () => {
     return (
         <div id='flyfabi' className='w-full bg-gray-100 py-16 px-10 text-default'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8'>
-                <img src={plane.src} alt='plane' className='w-[500px] mx-auto my-4 rounded-lg shadow-xl' />
+                <Image 
+                    src={plane.src}
+                    alt='plane'
+                    width={500}
+                    height={300}
+                    className='w-[500px] mx-auto my-4 rounded-lg shadow-xl'
+                />
                 <div className='flex flex-col max-w-[500px] '>
                     <p className='text-primary font-bold'>FLYING IS THE GREATEST WAY TO DISCOVER OUR PLANET</p>
                     <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>FLY WITH ME!</h1>

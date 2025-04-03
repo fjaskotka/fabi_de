@@ -4,9 +4,7 @@ import {
     FaGithubSquare,
     FaInstagram} from 'react-icons/fa'
 
-interface FooterProps {}
-
-const Footer: React.FC<FooterProps> = () => {
+const Footer = () => {
     const navbarHeight: number = 64;
 
     const handleScroll = (sectionId: string): void => {
