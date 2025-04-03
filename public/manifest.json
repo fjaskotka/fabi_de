@@ -1,6 +1,11 @@
 {
-  "short_name": "Fabian Jaskotka",
   "name": "Fabian Jaskotka",
+  "short_name": "FJ",
+  "description": "Personal website of Fabian Jaskotka",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#869F5C",
   "icons": [
     {
       "src": "favicon.ico",
