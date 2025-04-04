@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Fabian Jaskotka',
-  description: 'Personal website of Fabian Jaskotka',
+  description: 'Full-time optimist from Hamburg, Germany. I am currently a Senior Engineering Program Manager at Apple. Passion for technology and sales.',
   manifest: '/manifest.json',
   themeColor: '#171717', // Change this to your desired color
   icons: {
