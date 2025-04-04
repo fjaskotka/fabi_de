@@ -21,6 +21,21 @@ export const metadata: Metadata = {
       '/apple-splash-1125-2436.png',
     ],
   },
+  openGraph: {
+    title: 'My Website - Home',
+    description: 'Welcome to my personal website! I am a full-time optimist from Hamburg, Germany. Being happy is of utmost importance. Focus on doing those things, that make you feel good. Winners never quit and quitters never win! ',
+    url: 'https://fabianjaskotka.de',
+    siteName: 'Fabian Jaskotka',
+    images: [
+      {
+        url: '/fabi.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Fabian Jaskotka',
+      },
+    ],
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
